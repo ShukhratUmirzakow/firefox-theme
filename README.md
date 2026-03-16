@@ -1,7 +1,8 @@
 🌑 Minimalist Firefox Theme
 This theme is designed for a clean, distraction-free browsing experience. It achieves a "True Minimalist" look by removing UI clutter, including the background settings buttons.
 
-/data/image.png
+![Alt text for the image](data/image.png)
+
 
 🛠️ Installation Guide (Follow in Order!)
 Since this theme hides the "Edit" buttons on the New Tab page to keep things clean, you must set your wallpaper first.
