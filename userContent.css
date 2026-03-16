@@ -1,0 +1,7 @@
+ .personalize-button { display: none !important; }
+
+.urlbar-background,
+#searchbar {
+  border-radius: 30 !important;
+}
+
