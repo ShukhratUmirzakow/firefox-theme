@@ -4,60 +4,69 @@ This theme is designed for a clean, distraction-free browsing experience. It ach
 ![Alt text for the image](data/image.png)
 
 
-🛠️ Installation Guide (Follow in Order!)
-Since this theme hides the "Edit" buttons on the New Tab page to keep things clean, you must set your wallpaper first.
+# 🔧 Firefox Minimalist Theme Installation Guide
 
-Step 1: Set the Wallpaper
-Open a New Tab in Firefox.
+A step-by-step guide to customize Firefox with a clean, minimalist look.  
+⚠️ Note: This theme hides the "Edit" buttons on the New Tab page, so set your wallpaper first!
 
-Click the Settings (Gear icon) in the top-right corner of the page (or the "Personalize" button).
+---
 
-Choose the option to upload a custom background.
+## 📌 Step 1: Set the Wallpaper
+1. Open a **New Tab** in Firefox.
+2. Click the **Settings (Gear icon)** in the top-right corner (or "Personalize").
+3. Upload the included `wallpaper.png`.
+4. ✅ Verify that the wallpaper looks correct before continuing.
 
-Select the wallpaper.png file included in this folder.
+---
 
-Verify: Make sure the wallpaper looks correct before moving to the next step.
+## 📌 Step 2: Enable Custom Styles
+Firefox needs permission to load custom code.
 
-Step 2: Enable Custom Styles (about:config)
-Firefox needs permission to load our custom code.
+1. Type `about:config` in the address bar.
+2. Click **Accept the Risk and Continue**.
+3. Search for:
+   
+   toolkit.legacyUserProfileCustomizations.stylesheets
 
-Type about:config in your address bar and press Enter.
+5. Toggle it to **true**.
 
-Click "Accept the Risk and Continue".
+---
 
-Search for: toolkit.legacyUserProfileCustomizations.stylesheets
+## 📌 Step 3: Install `userContent.css`
+This file applies the minimalist look.
 
-Double-click it (or click the toggle icon) to set it to true.
+1. Type `about:support` in the address bar.
+2. Find **Profile Folder** → click **Open Folder**.
+3. Check for a folder named `chrome`.  
+- If missing, create one manually.
+4. Copy `userContent.css` into the `chrome` folder.
 
-Step 3: Install the userContent.css
-This file applies the minimalist look and hides the menu buttons you just used.
+---
 
-Type about:support in the address bar and press Enter.
+## 📌 Step 4: Install Required Extensions
+For full functionality:
 
-Find "Profile Folder" and click Open Folder (or Show in Finder).
+1. Open the included `links.txt`.
+2. Copy each URL into Firefox.
+3. Install the listed add-ons (dark mode, custom tab behavior, etc.).
 
-In that folder, check if there is a folder named chrome.
+---
 
-If not: Right-click, create a New Folder, and name it chrome.
+## 📌 Step 5: Restart Firefox
+1. Close all Firefox windows.
+2. Relaunch Firefox.
+3. 🎉 Enjoy your clean, minimalist setup!
 
-Copy the userContent.css file from this download and paste it inside that chrome folder.
+---
 
-Step 4: Install Dependencies (Extensions)
-To get the full functionality shown in the showcase image, you need a few specific extensions.
+### 🔄 Changing Wallpaper Later
+To change your wallpaper:
+- Temporarily remove `userContent.css` from the `chrome` folder.
+- Restart Firefox → change wallpaper → reapply `userContent.css`.
 
-Open the links.txt file included in this folder.
+---
 
-Copy each URL and paste it into Firefox to install the required add-ons.
-
-These extensions handle things like dark mode for websites and custom tab behavior.
-
-Step 5: The Final Restart
-For the changes to take effect (and for the UI clutter to disappear), you must restart your browser.
-
-Close all Firefox windows.
-
-Relaunch Firefox.
-
-Enjoy your clean, minimalist setup!
-
-Note: If you ever want to change your wallpaper later, you will need to temporarily remove the userContent.css file from the chrome folder and restart Firefox to bring the settings buttons back.
+## ✅ Final Notes
+- Keep backups of your `userContent.css` file.
+- Extensions may need updates over time.
+- This setup is designed for **simplicity and focus**.
